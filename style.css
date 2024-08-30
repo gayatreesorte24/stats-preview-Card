@@ -1,0 +1,64 @@
+body{
+    background-color: black;
+    height: 100vh;
+    width: 100wh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stats-preview{
+    background-color: #20035f;
+    width: 800px;
+    height: 400px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.stats{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 400px;
+   align-items: center;
+   justify-content: center;
+}
+
+.stats > h2{
+    color: white;
+    font-weight: 800;
+}
+
+.stats span{
+    color: violet;
+}
+
+h4{
+    color: white;
+}
+
+.views{
+    display: flex;
+    gap: 50px;
+
+}
+
+.views h3{
+    color: white;
+    font-weight: 700;
+    text-align: center;
+}
+
+.views h5{
+    color: white;
+}
+
+@media screen and (max-width: 480px) {
+    .stats-preview{
+        background-color: #20035f;
+        height: 800px;
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+    }
+}
